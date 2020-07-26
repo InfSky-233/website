@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>格物致知</title>
+    <link rel="shortcut icon" href="https://www.cdu.edu.cn/favicon.ico" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./res/swiper/swiper-bundle.min.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <title>健康管理面板</title>
-</head>
+  <body>
+    <div class="wrap">
+      <!-- 头部区域 -->
+      <div class="header">
+        <div class="heawrap">
+          <div class="log">格 · 致</div>
+          <ul class="nav">
+            <li class="item"><a href="">首 页</a></li>
+            <li class="item"><a href="">关 于</a></li>
+            <li class="item"><a href="">后 院</a></li>
+          </ul>
+          <div class="search">
+            <input type="text" placeholder="今天想了解什么呢？(☆▽☆)" />
+            <span class="but">搜索</span>
+          </div>
+        </div>
+      </div>
+      <!-- 内容区域 -->
+      <div class="main">
+        <div class="top">
+          <div class="left">
+            <div class="focus">
+              今日焦点
+            </div>
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="https://www2.autoimg.cn/newsdfs/g1/M03/09/DA/720x360_0_autohomecar__ChsEj18am0uAE4hyAAPg7YiGKOQ781.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://www3.autoimg.cn/newsdfs/g28/M08/E9/89/720x360_0_autohomecar__ChsEnl8ZIUuADbQ0AAgdfTuDFyI749.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://www3.autoimg.cn/newsdfs/g3/M08/10/47/720x360_0_autohomecar__ChwFlV8ZhRSAN5fUAANgblar7iM779.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://www2.autoimg.cn/newsdfs/g2/M00/0C/28/720x360_0_autohomecar__ChwFql8YLYiAZnJwAAjOx649OPE265.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://www2.autoimg.cn/newsdfs/g2/M05/1A/F6/720x360_0_autohomecar__ChwFql8apoeAT0gPAAcCEdC3HS4766.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="https://www2.autoimg.cn/newsdfs/g26/M03/46/B5/720x360_0_autohomecar__ChwFkF8af0eAR6hMAAMcFCZJnJU862.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination"></div>
+              <!-- 如果需要导航按钮 -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
 
-<body>
-    <div class="circle">
-        <div class="circle1"></div>
-        <div class="circle2"></div>
+          <div class="right">
+            
+          </div>
+        </div>
+        <div class="tabs">
+          <div class="category ca1">文 化</div>
+          <div class="category ca2">科 技</div>
+          <div class="category ca3">军 事</div>
+          <div class="category ca4">汽 车</div>
+        </div>
+      </div>
     </div>
-    <div class="container">
-        <div class="bg2">
-            <h2>16 <span>/ 24</span></h2>
-            <p>完成目标数</p>
-        </div>
-        <div class="bg1">
-            <h2><i class="fas fa-battery-three-quarters"></i></h2>
-            <p>呼吸</p>
-        </div>
-        <div class="bg1">
-            <h2><i class="fas fa-running"></i></h2>
-            <p>公里</p>
-        </div>
-        <div class="bg2">
-            <h2>36 &deg;</h2>
-            <p>温度</p>
-        </div>
-        <div class="bg2">
-            <h2><i class="fas fa-bed"></i></h2>
-            <p>睡眠质量</p>
-        </div>
-        <div class="bg1">
-            <h2>98 <span></span></h2>
-            <p>心率</p>
-        </div>
-        <div class="bg2">
-            <h2>50 <span>kg</span></h2>
-            <p>体重</p>
-        </div>
-        <div class="bg2">
-            <h2>20 <span>%</span></h2>
-            <p>体脂率</p>
-        </div>
-        <div class="bg1">
-            <h2>108 <span>mgdl</span></h2>
-            <p>血糖</p>
-        </div>
-        <div class="bg2">
-            <h2>680 <span>kcal</span></h2>
-            <p>平均消耗</p>
-        </div>
-        <div class="bg1">
-            <h2><i class="fas fa-dumbbell"></i></h2>
-            <p>锻炼</p>
-        </div>
-        <div class="bg1">
-            <h2>85 <span>%</span></h2>
-            <p>身体含水量</p>
-        </div>
 
-    </div>
-</body>
-
+    <script src="./res/swiper/swiper-bundle.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
