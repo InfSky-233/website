@@ -36,3 +36,14 @@ mySwiper.pagination.init();
 mySwiper.pagination.bullets.eq(0).addClass("swiper-pagination-bullet-active");
 
 // ---------------------- swiper设置结束 -----------------------
+
+// ---------------------- header隐藏 -----------------------
+var head = document.getElementsByClassName("header")[0];
+window.onscroll = function () {
+  var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+  if (scrollTop > 300) {
+    head.classList.add("headernone");
+  } else {
+    head.classList.remove("headernone");
+  }
+};
