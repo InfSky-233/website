@@ -236,14 +236,16 @@ a {
     z-index: 3;
 }
 
-.box3 .newslist {
+.newslist {
     display: inline-block;
     width: 270px;
     height: 40px;
     line-height: 40px;
     border-bottom: 1px dashed #d1d1d1;
 }
-
+.newslist a:hover{
+    color: #f53636;
+}
 .tabs {
     height: 300px;
     display: flex;
